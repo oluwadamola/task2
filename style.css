@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color:rgb(226, 238, 241);
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+}
+#mytitle{
+    display: inline-block;
+    margin: 10px;
+    font-size: 28px;
+} 
+#mytitle :last-child{
+    margin-left: 30px;
+    font-size: 37px;
+}
+tr:first-child{
+    background-color: rgb(201, 173, 173);
+    font-family: 'Dancing Script', cursive;
+    color:rgb(5, 16, 19);
+}
+.profile{
+    color:rgb(5, 16, 19);
+}
+.employement_history, .education, .profile{
+    font-size: 20px;
+    font-family: 'Gayathri', sans-serif;
+}
+h3{
+    background-color: black;
+    color: azure;
+}
+#contact{
+    display: inline;
+}
+#mail{
+    display: inline;
+    margin-left: 50px;
+}
+.contact_mail{
+    margin-left: 300px;
+}

@@ -3,54 +3,65 @@
 
 <head>
     <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <center>
-            <h1>
-            <img src="https://res.cloudinary.com/methodman/image/upload/v1566674413/stev_rlvvqy.jpg" alt="myimage" width="10%">
-
-                STEPHEN AJOSE</h1>
-            <h2>Software Solution Developer</h2>
-            <table border="1" width="60%">
+            <table width="60%">
                     <!-- personal info -->
                     <tr>
-                            <td><b>Phone number</b></td>
-                            <td>08060002485</td>
-                        </tr>
-                    <tr>
-                        <td><b>Emai</b></td>
-                        <td>stephenajoses@gmail.com</td>
+                        <td colspan="2" id="first_td">
+                            <img src="https://res.cloudinary.com/methodman/image/upload/v1566674413/stev_rlvvqy.jpg" alt="myimage" width="10%">
+                            <div id="mytitle">
+                                 <span><b>STEPHEN AJOSE</b></span>
+                                 <span id=""><b>Software Solution Developer</b></span>
+                            </div>
+                            <div class="contact_mail">
+                                <div id="contact">
+                                        <span><b>Phone number</b></span>
+                                        <span>08060002485</span>
+                                </div>
+                                <div id="mail">
+                                        <span><b>Emai</b></span>
+                                        <span>stephenajoses@gmail.com</span>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
             </table>
     </center>
 
     <!-- profile -->
-    <div>
+    <div class="profile">
         <h3>Profile</h3>
         <hr>
         <p>Am a self taught software developer.
            I make it a point to keep up with 
-           softwaredevelopment trends and successfully
+           software development trends and successfully
            implementing new ideas to client projects.
            I make your creative ideas come to life and will do a bit 
            of creative thinkingmyself from time to time
         </p>
     </div>
     <!-- Employement History -->
-    <div> 
+    <div class="employement_history"> 
         <h3>Employement History</h3>
         <hr>
             <span><b> IT Instructor, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meridian Technology Limited</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><b>MaryLand</b></span>
             <p>Teaching Java Technologies(JSP, Servlet, JPA, EJB), C# Asp.Net Technologies(MVC ASP.Net, Entity-framework) and Other technologies ofthe web assign to me
             </p>
     </div>
-    <div> 
+    <!-- Education -->
+    <div class="education"> 
             <h3>Education</h3>
             <hr>
                 <span><b> Federal University Of Agriculture Abeokuta, B.Agric &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meridian Technology Limited</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><b>Abeokuta, Ogun State</b></span>
-                <p>Teaching Java Technologies(JSP, Servlet, JPA, EJB), C# Asp.Net Technologies(MVCASP.Net, Entity-framework) and Other technologies ofthe web assign to me
-                </p>
+                <p> Studied Animal Breeding and Genetics</p>
+                 <br>
+                <span><b> Moshood Abiola Polytechnic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meridian Technology Limited</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><b>Abeokuta, Ogun State</b></span>
+                <p> Studied Electrical Electronic Engineering</p>
     </div>
 </body>
 </html>
